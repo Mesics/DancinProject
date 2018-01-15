@@ -1,0 +1,11 @@
+footer ul
+{
+	list-style:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+footer > ul > li:last-child > ul{
+	flex-direction:column;
+}
