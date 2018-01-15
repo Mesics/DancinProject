@@ -3,17 +3,13 @@
 	font-family:'Infinite_Stroke_Bolder';
 	src:url('../police/Infinite_Stroke_Bolder.otf');
 }
-@font-face
-{
-	font-family:'Ubuntu';
-	src:url('../police/Ubuntu-L');
-}
 
 header
 {
 	background-image:url('../images/dance.jpg');
-	background-position: 0% 50%;
-	padding-bottom:200px;
+	background-size:100%;
+	background-position: 0% 75%;
+	padding-bottom:300px;
 	
 	margin: 0 	-0.5em;
 	margin-top:-1.5em;

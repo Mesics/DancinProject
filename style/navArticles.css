@@ -2,8 +2,11 @@
 	border: 2px black solid;
 	width: 20ch;
 	height: auto;
-	margin-top: 2em;
+	margin-top: 1em;
 	padding: 0;
+	margin-left:0;
+	
+	font-family:Ubuntu, Calibri;
 }
 
 #navArticles a {
@@ -12,7 +15,7 @@
 }
 
 #navArticles li li a:hover:before {
-	content:"-> ";
+	content:"➔";
 }
 
 #navArticles ul {
@@ -21,13 +24,18 @@
 	text-align: lelft;
 }
 
+#navArticles li > ul
+{
+	margin-bottom:1.5em;
+}
 #navArticles li {
 	font-size : 1.5em;
-
+	font-weight:bold;
 	list-style: none;
 }
 
 #navArticles li li {
 	font-size : 0.8em;
+	font-weight:normal;
 
 }
