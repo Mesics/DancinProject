@@ -1,6 +1,7 @@
 footer
 {
 	font-family:Ubuntu, Calibri;
+	
 }
 
 footer ul
@@ -9,8 +10,11 @@ footer ul
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
+
+	padding:0;
 }
 
 footer > ul > li:last-child > ul{
 	flex-direction:column;
+
 }
