@@ -4,6 +4,10 @@
 	src:url('../police/Infinite_Stroke_Bolder.otf');
 }
 
+* {
+	font-family: Ubuntu, Calibri, sans-serif;
+}
+
 header
 {
 	background-image:url('../images/dance.jpg');
@@ -21,7 +25,6 @@ header > div
 	margin:auto;
 	padding:auto;
 	background-color: RGBa(255,255,255,0.5);
-	font-family: Ubuntu, Calibri;
 	
 	width:100%;
 	position:fixed;
