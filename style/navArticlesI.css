@@ -31,9 +31,9 @@
 {
 	background-color:RGBa(220, 200, 200, 0.5);
 	border-radius:0 0 0.5em 0.5em;
-	border-right: 0.5px black solid;
-	border-left: 0.5px black solid;
-	border-bottom: 0.5px black solid;
+	border-right: 0.5px #ccc solid;
+	border-left: 0.5px #ccc solid;
+	border-bottom: 0.5px #CCC solid;
 }
 
 
