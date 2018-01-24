@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="style/navArticles.css" />
 		<link rel="stylesheet" href="style/footer.css" />
 		<link rel="stylesheet" href="style/polices.css" />
+		<link rel="stylesheet" href="style/main.css" />
 
 	</head>
 	
@@ -42,31 +43,46 @@
 				</nav>
 			</div>
 		</header>
-		<nav id="navArticles">
-			<ul>
-				<li class="categorie"><a href="articles.html" >Femme</a>
-					<ul>
-						<li><a href="articles.html" >Justaucorps</a></li>
-						<li><a href="articles.html" >Collants</a></li>
-						<li><a href="articles.html" >Chaussures</a></li>
-					</ul>
-				</li>
-				<li class="categorie"><a href="articles.html" >Homme</a>
-					<ul>
-						<li><a href="articles.html" >Académique</a></li>
-						<li><a href="articles.html" >Pantalon</a></li>
-						<li><a href="articles.html" >Chaussures</a></li>
-					</ul>
-				</li>
-				<li class="categorie"><a href="articles.html" >Enfant</a>
-					<ul>
-						<li><a href="articles.html" >Haut</a></li>
-						<li><a href="articles.html" >Pantalon</a></li>
-						<li><a href="articles.html" >Chaussures</a></li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
+		
+		<main>
+			<section>
+				<p> Vous avez besoin d'une précision par rapport à un produit?
+				Vous avez des propositions d'amélioration concernant le site web?
+				N'hésitez pas à nous contacter un remplissant le formulaire ci-dessous.
+				</p>
+				<form id="contactForm" action="/service" method="POST">				
+					<table>
+						<tr>
+							<td align="left">
+								<label for="nomForm"> Nom: </label>
+							</td>
+							<td align="left">
+								<input type="text" id="nomForm" name="Nom"/>
+							</td>
+						</tr>
+						<tr>
+							<td align="left">
+								<label for="prenomForm"> Prénom: </label>
+							</td>
+							<td align="left">
+								<input type="text" id="prenomForm" name="Prenom"/>
+							</td>
+						</tr>
+						<tr>
+							<td align="left">
+								<label for="emailForm"> E-mail: </label>
+							</td>
+							<td align="left">
+								<input type="email" id="emailForm" name="Email"/>
+							</td>
+						</tr>
+					</table>
+					<label for="messageForm">Votre message: </label><br/>
+					<textarea id="messageForm" name="Message" rows="5" cols="100"></textarea><br/>
+					<input type="submit" value="Envoyer">
+				</form>
+			</section>
+		</main>
 		
 		<footer>
 			 <ul>
