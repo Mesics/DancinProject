@@ -1,4 +1,15 @@
-
+footer 
+{
+	color : #333;
+	margin:10% -5px -5px -5px;
+	padding-bottom:10px;
+	
+	
+	border-top: 1px solid #EEE;
+	background-color:#ffeeff;
+	
+	box-shadow : 0px -1px 25px #BBB  
+}
 footer ul
 {
 	list-style:none;
@@ -7,9 +18,23 @@ footer ul
 	justify-content:space-around;
 
 	padding:0;
+	margin-bottom:0;
 }
 
 footer > ul > li:last-child > ul{
 	flex-direction:column;
 
+}
+
+footer a
+{
+	text-decoration: none;
+	color : #333;
+	border-bottom: 1px dotted #333;
+}
+
+footer a:hover
+{
+	border-bottom: none;
+	font-weight:bold;
 }
