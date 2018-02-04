@@ -7,6 +7,9 @@
 * {
 	font-family: Ubuntu, Calibri, sans-serif;
 }
+body{
+	min-width:600px;
+}
 
 header
 {
@@ -27,6 +30,7 @@ header > div
 	background-color: RGBa(255,255,255,0.5);
 	
 	width:100%;
+	min-width:625px;
 	position:fixed;
 	
 	z-index:1;
@@ -55,7 +59,7 @@ header div h1
 
 header nav
 {
-	margin-left:6em;
+	margin-left:7em;
 	margin-top:-1.8em;
 	font-size:1.2em;
 	
