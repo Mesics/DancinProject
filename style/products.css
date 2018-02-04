@@ -2,6 +2,8 @@ main
 {
 	align-self:center;
 	max-width:1290px;
+	
+
 }
 
 #principal
@@ -44,8 +46,12 @@ article img
 	
 	border-radius: 3px;
 }
+figure img:first-child:hover
+{
+	opacity:0.7;
+}
 
-article figcaption a
+.add_link
 {
 	display:flex;
 	

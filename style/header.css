@@ -21,6 +21,11 @@ header
 	margin: 0 	-0.5em;
 	margin-top:-1.5em;
 }
+header div > a
+{
+	text-decoration:none;
+	color: black;
+}
 
 
 header > div
@@ -97,7 +102,7 @@ header ul li
 	font-size:0.8em;
 }
 
-header a 
+header nav a 
 {
 	color : #333333;
 	text-decoration:none;
