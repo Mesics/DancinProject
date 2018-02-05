@@ -1,0 +1,34 @@
+main
+{
+        display:inline-block;
+	align-self:center;
+	max-width:1290px;
+        width: calc(100% - 22ch);
+	
+}
+
+h1 img {
+    max-height: 1.2em;
+    max-width: 3ch;
+    width :auto;
+    height: auto;
+}
+
+section
+{
+	margin-left: 3%;
+}
+
+article {
+    min-height: 10em;
+}
+
+section > footer li {
+    padding: 3ch;
+    border: 1px solid black;
+}
+
+#paiementBlock {
+    opacity: 0.4;
+}
+
