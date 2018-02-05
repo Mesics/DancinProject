@@ -1,7 +1,9 @@
 main
 {
+        display:inline-block;
 	align-self:center;
 	max-width:1290px;
+        width: calc(100% - 22ch);
 	
 
 }
@@ -11,13 +13,6 @@ main h1
 	font-size:2em;
 }
 
-#principal
-{
-	display:flex;
-	flex-direction:row;
-	
-	margin:0;
-}
 section
 {
 	margin-left: 3%;
