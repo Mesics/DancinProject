@@ -32,3 +32,31 @@ section > footer li {
     opacity: 0.4;
 }
 
+table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tbody {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+th, td {
+    padding: 10px;
+}
+
+#totalTTC {
+    text-align: right;
+}
+
+#prixTotal {
+    background: #EEEEEE;
+    padding: 10px 30px 10px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0.5px inset black;
+    border-radius: 4px;
+}
+

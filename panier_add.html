@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="style/navArticles.css" />
 		<link rel="stylesheet" href="style/footer.css" />
 		<link rel="stylesheet" href="style/polices.css" />
-		<link rel="stylesheet" href="style/products.css" />
+		<link rel="stylesheet" href="style/cart.css" />
 
 	</head>
 	
@@ -45,7 +45,6 @@
 			</div>
 		</header>
 		
-			<div id="principal">
 			<nav id="navArticles">
 				<ul>
 					<li class="categorie"><a href="products.html" >Femme</a>
@@ -73,13 +72,66 @@
 			</nav>
 			
 			<main>
-				<section>
-					
-				</section>
+                            <section>
+                                <h1> <img src="images/panier.png" alt="panier" id="cart"/>Mon Panier</h1>
+                                <article>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Ref</th>
+                                                <th>Article</th>
+                                                <th>Quantité</th>
+                                                <th>Prix Unitaire</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>JC1024Blanc</td>
+                                                <td>Justaucorps blanc</td>
+                                                <td>
+                                                    <form action="panier_add.html" method="get">
+                                                        <input type="number" name="quantity1" min="1" max="100" value="1"/>
+                                                        <input hidden="hidden" type="submit"/>
+
+                                                    </form>
+                                                </td>
+                                                <td>23€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>RD2048Latino</td>
+                                                <td>Robe de danse latino</td>
+                                                <td>
+                                                    <form action="panier_add.html" method="get">
+                                                        <input type="number" name="quantity2" min="1" max="100" value="1"/>
+                                                        <input hidden="hidden" type="submit"/>
+
+                                                    </form>
+                                                </td>
+                                                <td>18€</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td colspan="3">Frais de livraison</td>
+                                                <td >Offerts</td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                    <p id="totalTTC" >TOTAL (TTC) <span id="prixTotal">41€</span></p>
+                                </article>
+                                <footer>
+                                    </nav>
+                                        <ul>
+                                            <a href="products.html"><li>Continuer mes Achats</li></a>
+                                            <a href="paiement.html"><li >Valider mon Panier</li></a>
+                                                    
+                                        </ul>
+                                    <nav>
+                                </footer>
+                            </section>
 			
 			</main>
 		
-		</div>
 			
 		<footer>
 			 <ul>
