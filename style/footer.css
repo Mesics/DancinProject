@@ -1,3 +1,24 @@
+html 
+{
+	height:100%
+}
+body 
+{
+	min-height:100%;
+	margin:0;
+	padding:0;
+	
+	padding-bottom:10%;
+	position:relative;
+}
+footer 
+{
+	position:absolute;
+	bottom:-24px;
+	right: 0;
+	left:0;
+}
+
 footer ul
 {
 	list-style:none;
@@ -10,14 +31,14 @@ footer ul
 }
 
 footer a {
-        text-decoration: none;
+    text-decoration: none;
 	color : #333;
 }
 
 body > footer 
 {
 	color : #333;
-	margin:10% -8px -8px -8px;
+	/* margin:10% -8px -8px -8px; */
 	padding-bottom:10px;
 	
 	

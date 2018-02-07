@@ -1,9 +1,9 @@
 main
 {
-        display:inline-block;
+    display:inline-block;
 	align-self:center;
 	max-width:1290px;
-        width: calc(100% - 22ch);
+    width: calc(100% - 22ch);
 	
 }
 
