@@ -23,15 +23,12 @@ h2
 	margin-bottom:40px;
 	margin-left:30px;
 }
-main p 
-{
-	margin:50px 0;
-}
 
-section
-{
-	margin-left: 3%;
-}
+h3 { font-size:0; } /* rendre invisible le titre */
+
+main p { margin:40px 0 50px 0; }
+
+section{	margin-left: 3%; }
 
 
 

@@ -12,6 +12,8 @@ main h2
 	font-size:2em;
 }
 
+article h3{ font-size:0; } /* rendre invisible le titre */
+
 section
 {
 	margin-left: 3%;
