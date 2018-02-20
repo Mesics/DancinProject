@@ -23,29 +23,30 @@ article
     min-height: 10em;
 }
 
-section > nav a {
+.lien_panier, #paiementBlock {
     padding: 2ch;
 	
 	border: 1px solid #666;
 	border-radius:5px;
 	background-color: #808080;
-	box-shadow: 0px 0px 2px 1px RGBa(0,0,0,0.25), inset 1px 1px 0px 0px RGBa(255,255,255,0.25);
+	box-shadow: 0px 0px 2px 1px RGBa(0,0,0,0.25), 
+				inset 1px 1px 0px 0px RGBa(255,255,255,0.25);
 	color : white;
 	text-shadow:1px 1px 0px RGBa(0,0,0,0.5);
 	
 	border-radius: 5px;
 }
 
-section > nav a:hover {
+.lien_panier:hover {
 	background-color:#A0A0A0;
 }
-section > nav a:active {
+.lien_panier:active {
 	box-shadow: 1px 1px 10px RGBa(0,0,0,0.25) inset, 
 				0px 1px 0px RGBa(255,255,255,0.4);
 
 }
 
-section > nav a
+section > nav li
 {
 	margin-top:50px;
 }
@@ -63,18 +64,16 @@ section nav ul
 }	
 section nav a {
     text-decoration: none;
+	color : white;
 }
 
 #paiementBlock {
-    padding: 2ch;
-
     opacity: 0.4;
-	margin-top: 50px;
-	background-color: #808080;
-
-	border: 1px solid #666;
-	border-radius:5px;
 }
+#paiementBlock:hover {
+	color-background:inherit;
+}
+
 
 table {
     width: 100%;
