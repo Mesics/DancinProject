@@ -1,7 +1,9 @@
 html 
 {
-	height:100%
+	height:100%;
 }
+
+/* mise en place du footer fixé en bas de la page */
 body 
 {
 	min-height:100%;
@@ -19,6 +21,7 @@ footer
 	left:0;
 }
 
+/* mise en place des différentes parties du footer*/
 footer ul
 {
 	list-style:none;
@@ -30,10 +33,6 @@ footer ul
 	margin-bottom:0;
 }
 
-footer a {
-    text-decoration: none;
-	color : #333;
-}
 
 body > footer 
 {
@@ -47,16 +46,19 @@ body > footer
 	box-shadow : 0px -1px 25px #BBB  
 }
 
+
+/* mise en place en forme de colonne des 2 derniers points */
 body > footer > ul > li:last-child > ul{
 	flex-direction:column;
-
 }
 
-body > footer a
-{
+
+/* mise en forme des liens */
+body > footer a {
+    text-decoration: none;
+	color : #333;
 	border-bottom: 1px dotted #333;
 }
-
 body > footer a:hover
 {
 	border-bottom: none;

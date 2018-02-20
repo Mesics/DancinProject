@@ -1,16 +1,31 @@
 main
 {
     display:inline-block;
-	align-self:center;
+	vertical-align:top;
 	max-width:1290px;
     width: calc(100% - 22ch);
+	
+	margin-top:50px;
 }
 
-h1 img {
-    max-height: 1.2em;
-    max-width: 3ch;
-    width :auto;
+/* mise en forme et placement du logo panier sur la page */
+#cart_main {
+	float:left;
+	margin-top:5px;
+    width: 1.7em;
     height: auto;
+}
+
+h2
+{
+	font-size: 1.8em;
+	margin-top:0px;
+	margin-bottom:40px;
+	margin-left:30px;
+}
+main p 
+{
+	margin:50px 0;
 }
 
 section
@@ -18,13 +33,10 @@ section
 	margin-left: 3%;
 }
 
-article 
-{
-    min-height: 10em;
-}
 
+
+/* mise en forme des boutons 'Retour achats' et 'Paiement' */
 .lien_panier, #paiementBlock {
-    /* padding: 2ch; */
 	display:inline-block;
 	border: 1px solid #666;
 	border-radius:5px;
@@ -35,32 +47,31 @@ article
 	text-shadow:1px 1px 0px RGBa(0,0,0,0.5);
 	
 	border-radius: 5px;
+	margin-top:40px;
 }
 
-#paiementBlock{
-    padding: 2ch;
-}
-
+/* lien actif dans tout le bloc bouton */
 .lien_panier a {
 	display:block;
     padding:2ch;
 }
-
+/* couleur plus clair quand survol */
 .lien_panier:hover {
 	background-color:#A0A0A0;
 }
+/* effet bouton enfoncé quand appui */
 .lien_panier:active {
 	box-shadow: 1px 1px 10px RGBa(0,0,0,0.25) inset, 
 				0px 1px 0px RGBa(255,255,255,0.4);
-
+}
+/* mise en forme des liens des boutons */
+section nav a {
+    text-decoration: none;
+	color : white;
 }
 
-section > nav li
-{
-	margin-top:50px;
-}
 
-
+/* mise en place des boutons sans les puces et en ligne */
 section nav ul
 {
 	list-style:none;
@@ -71,19 +82,15 @@ section nav ul
 	padding:0;
 	margin-bottom:0;
 }	
-section nav a {
-    text-decoration: none;
-	color : white;
-}
 
+/* effet "désactivé" du bouton 'Paiement' */
 #paiementBlock {
     opacity: 0.4;
-}
-#paiementBlock:hover {
-	color-background:inherit;
+	padding:2ch;
 }
 
 
+/* mise en forme du tableau des articles présents dans le panier */
 table {
     width: 100%;
     text-align: center;
@@ -95,14 +102,15 @@ tbody {
     border-bottom: 1px solid grey;
 }
 
-th, td {
-    padding: 10px;
-}
+th, td { padding: 10px; }
 
-#totalTTC {
-    text-align: right;
-}
+/* ajustement taille de l'input du nombre d'articles désirés */
+.quant{ width : 50px; }
 
+
+#totalTTC { text-align: right; }
+
+/* mise en forme du prix total */
 #prixTotal {
     background: #EEEEEE;
     padding: 10px 30px 10px 30px;
@@ -112,8 +120,4 @@ th, td {
     border-radius: 4px;
 }
 
-.quant
-{
-	width : 50px;
-}
 

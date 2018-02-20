@@ -1,11 +1,14 @@
+/* mise en page de la navigation */
 #navArticles {
-        display:inline-block;
+    display:inline-block;
 	border-right: 2px black dotted;
-	width: 20ch;
+
+	width: 20ch; 
 	height: auto;
+	
 	margin-top: 1em;
-	padding: 0;
 	margin-left:0;
+	padding: 0;
 }
 
 #navArticles a {
@@ -13,16 +16,17 @@
 	text-decoration: none;
 }
 
+/* ajout d'une flèche devant lors du survol du lien */
 #navArticles li li a:hover:before {
 	content:"➔";
 }
 
-#navArticles ul {
-	
-	padding-left: 10%;
-	text-align: lelft;
-}
 
+/* mise en forme des différentes catégories */
+#navArticles ul {
+	padding-left: 10%;
+	text-align: left;
+}
 #navArticles li > ul
 {
 	margin-bottom:1.5em;
@@ -32,9 +36,7 @@
 	font-weight:bold;
 	list-style: none;
 }
-
 #navArticles li li {
 	font-size : 0.8em;
 	font-weight:normal;
-
 }
