@@ -24,8 +24,8 @@ article
 }
 
 .lien_panier, #paiementBlock {
-    padding: 2ch;
-	
+    /* padding: 2ch; */
+	display:inline-block;
 	border: 1px solid #666;
 	border-radius:5px;
 	background-color: #808080;
@@ -35,6 +35,15 @@ article
 	text-shadow:1px 1px 0px RGBa(0,0,0,0.5);
 	
 	border-radius: 5px;
+}
+
+#paiementBlock{
+    padding: 2ch;
+}
+
+.lien_panier a {
+	display:block;
+    padding:2ch;
 }
 
 .lien_panier:hover {

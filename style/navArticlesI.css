@@ -1,7 +1,7 @@
 #navArticlesI
 {
 	font-size:1.8em;
-	
+	margin: 0 20px;
 }
 
 #navArticlesI ul
@@ -9,7 +9,6 @@
 	display:flex;
 	flex-direction:row; 
 	
-	justify-content:center;		
 	margin:auto;
 	padding:0;
 	
@@ -17,17 +16,24 @@
 	
 }
 
-#navArticlesI ul a 
+.categorie 
 {
+	display:inline-block;
+}
+
+.categorie a
+{
+	display:block;
+	padding: 0 40%;
+	width:100px;
+	
 	text-decoration:none;
 	color: #333;
 	
-	padding: 0 12%;
-
 }
 
 
-#navArticlesI > ul > a:hover
+.categorie:hover
 {
 	background-color:RGBa(220, 200, 200, 0.5);
 	border-radius:0 0 0.5em 0.5em;
@@ -37,10 +43,4 @@
 	
 	font-weight:bold;
 }
-
-
-
-
-
-
 
