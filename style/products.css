@@ -6,13 +6,13 @@ main
     width: calc(100% - 22ch);
 }
 
-main h2
+main h1
 {
 	text-align:center;
 	font-size:2em;
 }
 
-article h3{ display:none; } /* rendre invisible le titre */
+article h1{ display:none; } /* rendre invisible le titre */
 
 section
 {
