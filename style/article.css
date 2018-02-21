@@ -1,0 +1,47 @@
+main
+{
+    display:inline-block;
+	vertical-align:top;
+	max-width:1290px;
+    width: calc(100% - 22ch);
+	
+	margin-top:20px;
+}
+
+main section
+{
+	display:flex;
+	flex-direction:row;
+}
+
+main article img
+{
+	margin-right:20px;
+	margin-top:10px;
+
+	width:400px;
+	min-width:300px;
+	height:auto;
+	
+	border-radius:5px;
+}
+
+main h2
+{
+	text-transform:uppercase;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	
+	border-bottom:1px dotted #333;
+}
+main p
+{
+	margin:0;
+	font-size:1.4em;
+}
+
+form
+{
+	
+}
+
