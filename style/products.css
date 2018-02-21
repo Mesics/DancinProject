@@ -12,7 +12,7 @@ main h2
 	font-size:2em;
 }
 
-article h3{ font-size:0; } /* rendre invisible le titre */
+article h3{ display:none; } /* rendre invisible le titre */
 
 section
 {

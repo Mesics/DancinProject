@@ -24,7 +24,7 @@ h2
 	margin-left:30px;
 }
 
-h3 { font-size:0; } /* rendre invisible le titre */
+h3 { display:none; } /* rendre invisible le titre */
 
 main p { margin:40px 0 50px 0; }
 
