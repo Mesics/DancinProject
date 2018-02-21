@@ -75,24 +75,26 @@
 		<main>
 			<section>
 				<article>
-					<img src='images/leotard.jpeg' alt="leotard" />
+					<img src='images/leotard.jpeg' alt="leotard" id="leotard"/>
 				</article>	
 				<article>
 					<h1>Justaucorps blanc</h1>
 					<p>23 €</p>
 					
-					<img src='images/etoiles.png' alt='etoiles_avis' />
+					<img src='images/etoiles.png' alt='etoiles_avis' id='rating' />
 					<p>(8 avis)</p>
 					
 					<form action="panier_add.html" mathod="get">
-						<select name="taille"  >
-							<option selected>Saisissez votre taille</option>
-							<option>XS	En stock</option>
-							<option>S	En stock</option>
-							<option>M	Epuisé</option>
-							<option>L	En stock</option>
-							<option>XL	En stock</option>
-						</section>
+						<select name="taille" required>
+							<option selected>SAISISSEZ VOTRE TAILLE</option>
+							<option value="XS">XS	En stock</option>
+							<option value="S">S	En stock</option>
+							<option value="M">M	Epuisé</option>
+							<option value="L">L	En stock</option>
+							<option value="XL">XL	En stock</option>
+						</select>
+						<br/>
+						<input type="submit" value="Ajouter au panier" id="boutonAdd"/>
 					</form>
 						
 					

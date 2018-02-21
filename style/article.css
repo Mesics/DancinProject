@@ -12,19 +12,53 @@ main section
 {
 	display:flex;
 	flex-direction:row;
+	margin:auto;
+	justify-content:center;
 }
 
-main article img
+@media all and (max-width: 700px)
+{
+	main section
+	{
+		display:flex;
+		flex-direction:column;
+
+		width:60%;
+		
+		justify-content:center;
+	}
+	main h1 + p
+	{
+		margin:0;
+		margin-bottom:10px;
+	}
+	main article:first-child
+	{
+		width:100%;
+		margin-right:0;
+	}
+}
+main article:first-child
+{
+	width:60%;
+	max-width:400px;
+	min-width:250px;
+	
+	margin-right:20px;
+}
+
+
+#leotard
 {
 	margin-right:20px;
 	margin-top:10px;
 
-	width:400px;
-	min-width:300px;
+	width:100%;
 	height:auto;
 	
 	border-radius:5px;
 }
+
 
 main h1
 {
@@ -32,16 +66,64 @@ main h1
 	margin-bottom:5px;
 	padding-bottom:5px;
 	
+	font-size:1.5em;
 	border-bottom:1px dotted #333;
 }
-main p
+main h1 + p
 {
 	margin:0;
 	font-size:1.4em;
+	
+	margin-bottom:30px;
 }
+
+#rating
+{
+	width: 180px;
+	height:auto;
+	
+
+}
+
+#rating, #rating+p
+{
+	display:inline-block;
+	
+	margin:0;
+}
+
 
 form
 {
+	margin-top:30px;
+	text-align:right;
+}
+form option
+{	
+	width:230px;
+	height:25px;
+}
+#boutonAdd
+{
+	border: 1px solid #777;
+	background-color: #999;
+	box-shadow: 0px 0px 2px 1px RGBa(0,0,0,0.25), 
+				inset 1px 1px 0px 0px RGBa(255,255,255,0.25);
+	color : white;
+	text-shadow:1px 1px 0px RGBa(0,0,0,0.5);
 	
+	padding:1ch;
+	margin-top:20px;
+
+	display:block;
+	display:inline-block;
+}
+#boutonAdd:hover {
+	background-color:#A0A0A0;
+}
+/* effet bouton enfoncé quand appui */
+#boutonAdd:active {
+	box-shadow: 1px 1px 10px RGBa(0,0,0,0.25) inset, 
+				0px 1px 0px RGBa(255,255,255,0.4);
 }
 

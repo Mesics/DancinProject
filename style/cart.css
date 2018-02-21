@@ -24,7 +24,7 @@ main h1
 	margin-left:30px;
 }
 
-h3 { display:none; } /* rendre invisible le titre */
+main article h1 { display:none; } /* rendre invisible le titre */
 
 main p { margin:40px 0 50px 0; }
 
