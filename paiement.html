@@ -108,7 +108,7 @@
                                         <label for="codePostal">Code Postal: </label>
                                                 </td>
                                                 <td>
-                                        <input type="number" id="codePostal" name="codePostal" placeholder="Ex: 69100" min="01000" max="99999"/>
+                                        <input type="number" id="codePostal" name="codePostal" placeholder="Ex: 69100" min="01000" max="99999" maxlength="5"/>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -128,7 +128,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2">
+                                                <td colspan="2" >
                                                     <h2>Méthode de paiement</h2>
                                                 </td>
                                             </tr>
@@ -144,7 +144,7 @@
                                         <label for="nomCarte">Nom prénom:</label>
                                                 </td>
                                                 <td>
-                                        <input type="text" id="nomCarte" name="nomCarte" min="2018-02-01" />
+                                        <input type="text" id="nomCarte" name="nomCarte"/>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -152,7 +152,7 @@
                                         <label for="dateExpiration">Date d'expiration:</label>
                                                 </td>
                                                 <td>
-                                        <input type="month" id="dateExpiration" name="dateExpiration" min="2018-02-01" />
+                                        <input type="month" id="dateExpiration" name="dateExpiration" min="2018-02" />
                                                 </td>
                                             </tr>
                                             <tr>
@@ -160,7 +160,7 @@
                                         <label for="numCarte">Numéro de carte:</label>
                                                 </td>
                                                 <td>
-                                        <input type="number" id="numCarte" name="numCarte" min="1000000000000" max="9999999999999999999"/>
+                                        <input type="number" id="numCarte" name="numCarte" min="1000000000000" max="9999999999999999999" maxlength="19"/>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -168,7 +168,7 @@
                                         <label for="codeSecurite">Code de sécurité (CVC):</label>
                                                 </td>
                                                 <td>
-                                        <input type="number" id="codeSecurite" name="codeSecurite" min="000" max="999" />
+                                        <input type="number" id="codeSecurite" name="codeSecurite" min="000" max="999" maxlenght="3"/>
                                                 </td>
                                             </tr>
                                             <tr>
