@@ -93,12 +93,12 @@ main h1 + p
 }
 
 
-form
+main form
 {
 	margin-top:30px;
 	text-align:right;
 }
-form option
+main form option
 {	
 	width:230px;
 	height:25px;
