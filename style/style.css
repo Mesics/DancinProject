@@ -190,22 +190,23 @@ header a:hover
 #navArticlesI
 {
 	font-size:1.8em;
-	margin: 0 20px;
 }
 
 #navArticlesI ul
 {
 	display:flex;
 	flex-direction:row; 
+	justify-content:space-around;
 	
 	margin:auto;
 	padding:0;
 	
 	list-style:none;
 }
-
+/* mise en forme du bouton */
 .categorieI 
 {
+	padding: 0 12%;
 	display:inline-block;
 }
 
@@ -213,9 +214,7 @@ header a:hover
 .categorieI a
 {
 	display:block;
-	padding: 0 40%;
-	width:100px;
-	
+
 	text-decoration:none;
 	color: #333;
 	
