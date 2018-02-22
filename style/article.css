@@ -54,8 +54,8 @@ main article:first-child
 	border-radius:5px;
 }
 
-
-main h1
+main article:first-child h2{	display:none;}
+main article:nth-child(2) h2
 {
 	text-transform:uppercase;
 	margin-bottom:5px;
@@ -64,7 +64,7 @@ main h1
 	font-size:1.5em;
 	border-bottom:1px dotted #333;
 }
-main h1 + p
+main article h2 + p
 {
 	margin:0;
 	font-size:1.4em;
@@ -95,10 +95,6 @@ main form option
 {	
 	width:230px;
 	height:25px;
-}
-#epuise
-{
-	color:#888;
 }
 
 

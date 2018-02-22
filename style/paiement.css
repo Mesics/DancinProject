@@ -6,7 +6,7 @@ section fieldset
 	padding-left:50px;
 	padding-right:50px;
 }
-section h1
+section h2
 {
 	font-size:1.8em;
 	margin:10px 0;
@@ -21,11 +21,11 @@ section label, section input
 	text-align:left;
 }
 
-section h3
+section h4
 {
 	margin:10px 0 5px 0;
 }
-section h2
+section h3
 {
 	margin-top:20px;
 	margin-bottom:5px;

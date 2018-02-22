@@ -111,6 +111,10 @@ th, td { padding: 10px; }
   background-color: #FF6656;
 }
 
+tfoot tr :first-child
+{
+	text-align:right;
+}
 
 /* ajustement taille de l'input du nombre d'articles désirés */
 .quant{ width : 50px; }

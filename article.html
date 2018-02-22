@@ -73,21 +73,22 @@
 		<main>
 			<section>
 				<article>
+					<h2>Article détaillé</h2>
 					<img src='images/leotard.jpeg' alt="leotard" id="leotard"/>
 				</article>	
 				<article>
-					<h1>Justaucorps blanc</h1>
+					<h2>Justaucorps blanc</h2>
 					<p>23 €</p>
 					
 					<img src='images/etoiles.png' alt='etoiles_avis' id='rating' />
 					<p>(8 avis)</p>
 					
-					<form action="panier_add.html" mathod="get">
+					<form action="panier_add.html" method="get">
 						<select name="taille" required>
-							<option selected>SAISISSEZ VOTRE TAILLE</option>
+							<option value="" selected disabled>SAISISSEZ VOTRE TAILLE</option>
 							<option value="XS">XS	En stock</option>
 							<option value="S">S	En stock</option>
-							<option value="M" id="epuise">M	Epuisé</option>
+							<option value="M" disabled>M	Epuisé</option>
 							<option value="L">L	En stock</option>
 							<option value="XL">XL	En stock</option>
 						</select>
