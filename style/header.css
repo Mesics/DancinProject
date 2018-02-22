@@ -1,16 +1,26 @@
+/* propriétés par défaut pour toutes les pages */
 @font-face
 {
 	font-family:'Infinite_Stroke_Bolder';
 	src:url('../police/Infinite_Stroke_Bolder.otf');
 }
+@font-face
+{
+	font-family:'Ubuntu';
+	src:url('../police/Ubuntu-L');
+}
 
 * {
 	font-family: Ubuntu, Calibri, sans-serif;
 }
+
 body{
 	min-width:600px;
 }
 
+
+
+/* définition du header pour toutes les pages */
 header
 {
 	background-image:url('../images/dance.jpg');

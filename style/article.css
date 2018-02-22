@@ -77,22 +77,20 @@ main h1 + p
 	margin-bottom:30px;
 }
 
+/* mise en forme étoile + du nb avis */
 #rating
 {
 	width: 180px;
 	height:auto;
-	
-
 }
-
 #rating, #rating+p
 {
 	display:inline-block;
-	
 	margin:0;
 }
 
 
+/* mise en forme de la liste déroulante */
 main form
 {
 	margin-top:30px;
@@ -103,6 +101,12 @@ main form option
 	width:230px;
 	height:25px;
 }
+#epuise
+{
+	color:#888;
+}
+
+
 #boutonAdd
 {
 	border: 1px solid #777;
@@ -120,6 +124,7 @@ main form option
 }
 #boutonAdd:hover {
 	background-color:#A0A0A0;
+	cursor:pointer;
 }
 /* effet bouton enfoncé quand appui */
 #boutonAdd:active {
