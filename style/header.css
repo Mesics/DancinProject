@@ -18,14 +18,20 @@ body{
 	min-width:600px;
 }
 
-
+main
+{
+    display:inline-block;
+	vertical-align:top;
+	max-width:1290px;
+    width: calc(100% - 22ch);
+}
 
 /* définition du header pour toutes les pages */
 header
 {
 	background-image:url('../images/dance.jpg');
 	background-size:100%;
-	background-position: 0% 75%;
+	background-position: 0 75%;
 	padding-bottom:300px;
 	
 	margin-top:-1em;

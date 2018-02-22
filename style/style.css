@@ -1,0 +1,302 @@
+/*** PROPRIETES PAR DEFAUT pour toutes les pages ***/
+@font-face
+{
+	font-family:'Infinite_Stroke_Bolder';
+	src:url('../police/Infinite_Stroke_Bolder.otf');
+}
+@font-face
+{
+	font-family:'Ubuntu';
+	src:url('../police/Ubuntu-L');
+}
+
+* {
+	font-family: Ubuntu, Calibri, sans-serif;
+}
+
+body{
+	min-width:600px;
+}
+
+main
+{
+    display:inline-block;
+	vertical-align:top;
+	max-width:1290px;
+    width: calc(100% - 22ch);
+}
+
+
+
+
+/**** définition du HEADER pour toutes les pages ****/
+header
+{
+	background-image:url('../images/dance.jpg');
+	/*taille de l'image relative à taille fenetre*/
+	background-size:100%; 
+	background-position: 0 75%;
+	padding-bottom:300px;
+	
+	margin-top:-1em;
+}
+
+/* mise en forme du bandeau blanc transparent qui reste fix */
+header > div
+{
+	margin:auto;
+	padding:auto;
+	background-color: RGBa(255,255,255,0.5);
+	
+	width:100%;
+	min-width:625px;
+	position:fixed;
+	
+	z-index:1;
+}
+/*mise en forme logo en haut à gauche*/
+header div img
+{
+	width:auto;
+	height:3em;
+	margin-top:0.2em;
+	margin-left:0.2em;
+	
+	float:left;
+	padding-top:1em;
+}
+header div h1
+{
+	padding-left:1.2em;
+	font-family: Infinite_Stroke_Bolder, Arial;
+	font-size:2.5em;
+	
+	margin:auto;
+	padding-top:0.3em;
+}
+header div > a
+{
+	text-decoration:none;
+	color: black;
+}
+
+/* mise en forme navigation du bandeau blanc */
+header nav
+{
+	margin-left:7em;
+	margin-top:-1.8em;
+	font-size:1.2em;
+	
+}
+header ul
+{
+	list-style:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+	margin:auto;
+	margin-bottom:-0.7em;
+}
+header ul li
+{
+	padding:0;
+	margin:auto;
+}
+
+/* loupe dans bouton recherche */
+#loupe
+{
+	width:1em;
+	height:auto;
+	padding:0;
+}
+
+/* mise en forme logo panier*/
+#cart
+{
+	width:1.9em;
+	height:auto;
+	margin-top:-0.8em;
+}
+/* mise en forme texte avec nombre d'article dans panier */
+#panier
+{
+	font-size:0.8em;
+}
+
+/* mise en forme des liens de la navigation */
+header nav a 
+{
+	color : #333333;
+	text-decoration:none;
+}
+header a:hover
+{
+	font-weight:bold;
+}
+
+
+
+
+/**** mise en page de la NAVIGATION pour articles ****/
+/*taille et forme de la boite de navigation*/
+#navArticles {
+    display:inline-block;
+	border-right: 2px black dotted;
+
+	width: 20ch; 
+	height: auto;
+	
+	margin-top: 1em;
+	margin-left:0;
+	padding: 0;
+}
+ 
+/* mise en forme des liens */
+#navArticles a {
+	color: black;
+	text-decoration: none;
+}
+
+/* ajout d'une flèche devant lors du survol du lien */
+#navArticles li li a:hover:before {
+	content:"➔";
+}
+
+
+/* mise en forme des différentes catégories */
+#navArticles ul {
+	padding-left: 10%;
+	text-align: left;
+}
+#navArticles li > ul
+{
+	margin-bottom:1.5em;
+}
+#navArticles li {
+	font-size : 1.5em;
+	font-weight:bold;
+	list-style: none;
+}
+#navArticles li li {
+	font-size : 0.8em;
+	font-weight:normal;
+}
+
+
+
+/**** NAVIGATION en forme de bandeau pour l'ACCEUIL ****/
+#navArticlesI
+{
+	font-size:1.8em;
+	margin: 0 20px;
+}
+
+#navArticlesI ul
+{
+	display:flex;
+	flex-direction:row; 
+	
+	margin:auto;
+	padding:0;
+	
+	list-style:none;
+}
+
+.categorie 
+{
+	display:inline-block;
+}
+
+/* mise en forme des liens */
+.categorie a
+{
+	display:block;
+	padding: 0 40%;
+	width:100px;
+	
+	text-decoration:none;
+	color: #333;
+	
+}
+.categorie:hover
+{
+	background-color:RGBa(220, 200, 200, 0.5);
+	border-radius:0 0 0.5em 0.5em;
+	border-right: 0.5px #ccc solid;
+	border-left: 0.5px #ccc solid;
+	border-bottom: 0.5px #CCC solid;
+	
+	font-weight:bold;
+}
+
+
+
+
+/**** FOOTER mise en forme ****/
+html 
+{
+	height:100%;
+}
+
+/* mise en place du footer fixé en bas de la page */
+body 
+{
+	min-height:100%;
+	margin:0;
+	padding:0;
+	
+	padding-bottom:10%;
+	position:relative;
+}
+footer 
+{
+	position:absolute;
+	bottom:-24px;
+	right: 0;
+	left:0;
+}
+
+/* mise en place des différentes parties du footer*/
+footer ul
+{
+	list-style:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+
+	padding:0;
+	margin-bottom:0;
+}
+
+body > footer 
+{
+	color : #333;
+	padding-bottom:10px;
+	
+	border-top: 1px solid #EEE;
+	background-color:#ffeeff;
+	
+	box-shadow : 0px -1px 25px #BBB  
+}
+
+
+/* mise en place en forme de colonne des 2 derniers points */
+body > footer > ul > li:last-child > ul{
+	flex-direction:column;
+}
+
+
+/* mise en forme des liens */
+body > footer a {
+    text-decoration: none;
+	color : #333;
+	border-bottom: 1px dotted #333;
+}
+body > footer a:hover
+{
+	border-bottom: none;
+	font-weight:bold;
+}
+

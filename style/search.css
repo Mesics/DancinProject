@@ -8,7 +8,8 @@
 	
 	text-align:center;
 	color:white;
-}	
+}
+	
 main h1
 {
 	text-transform:uppercase;
@@ -19,7 +20,4 @@ p
 	font-size:1.5em;
 	margin: 0;
 }
-#nb
-{
-	font-size:0.7em;
-}
+#nb{ font-size:0.7em;}

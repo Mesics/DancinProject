@@ -1,4 +1,4 @@
-main h1
+section h1
 {
 	display:none;
 }
@@ -42,7 +42,7 @@ main h1
   padding: 0;
 }
 
-main section img {
+section img {
   max-width: 100%;
   border-radius: 4px;
 
