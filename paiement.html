@@ -3,10 +3,8 @@
 	<head>
 		<meta charset='utf-8' />
 		<title>Dancin'</title>
-		<link rel="stylesheet" href="style/header.css" />
-		<link rel="stylesheet" href="style/navArticles.css" />
-		<link rel="stylesheet" href="style/footer.css" />
-		<link rel="stylesheet" href="style/polices.css" />
+		<link rel="stylesheet" href="style/style.css" />
+
 		<link rel="stylesheet" href="style/paiement.css" />
 
 	</head>
@@ -33,7 +31,7 @@
 							</form>
 						</li>
 						<li id="panier">
-							<a href="empty_cart.html">
+							<a href="panier_add.html">
 								<img src="images/panier.png" alt="panier" id="cart"/>
 								(2)
 							</a>
@@ -44,143 +42,141 @@
 				</nav>
 			</div>
 		</header>
-		<main>
-			<section>
-				<article>
-					<form>
-						<fieldset> <legend><h1>Paiement</h1></legend>
-							<table>
-								<tr>
-									<td colspan="2">
-										<h2>Informations Personnelles</h2>
-									</td>
-								</tr>
-								<tr>
-									<td colspan="2">
-										<h3>Identité</h3>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="nom">Nom: </label>
-									</td>
-									<td>
-										<input type="text" id="nom" name="nom" placeholder="Ex: Dupont"/>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="prenom">Prenom: </label>
-									</td>
-									<td>
-										<input type="text" id="prenom" name="prenom" placeholder="Ex: Jean"/>
-									</td>
-								</tr>
-								<tr>
-									<td colspan="2">
-										<h3>Contact</h3>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="mail">Adresse mail: </label>
-									</td>
-									<td>
-										<input type="email" id="mail" name="mail" placeholder="Ex: jean.dupont@gmail.com"/>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="telephone">Téléphone: </label>
-									</td>
-									<td>
-										<input type="tel" id="telephone" name="telephone" placeholder="Ex: 0679521485"/>
-									</td>
-								</tr>
-								<tr>
-									<td colspan="2">
-										<h3>Adresse:</h3>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="codePostal">Code Postal: </label>
-									</td>
-									<td>
-										<input type="number" id="codePostal" name="codePostal" placeholder="Ex: 69100" min="01000" max="99999" maxlength="5"/>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="ville">Ville: </label>
-									</td>
-									<td>
-										<input type="text" id="ville" name="ville" placeholder="Ex: Villeurbanne" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="rue">Rue/Numéro/Étage/Etc: </label>
-									</td>
-									<td>
-										<input type="text" id="rue" name="rue" placeholder="Ex: 12 Rue de la République" />
-									</td>
-								</tr>
-								<tr>
-									<td colspan="2" >
-										<h2>Méthode de paiement</h2>
-									</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td >
-										<img src="https://www.merchantequip.com/image/?logos=v|m|me&height=32" alt="Merchant Equipment Store Credit Card Logos"/>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="nomCarte">Nom prénom:</label>
-									</td>
-									<td>
-										<input type="text" id="nomCarte" name="nomCarte"/>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="dateExpiration">Date d'expiration:</label>
-									</td>
-									<td>
-										<input type="month" id="dateExpiration" name="dateExpiration" min="2018-02" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="numCarte">Numéro de carte:</label>
-									</td>
-									<td>
-										<input type="number" id="numCarte" name="numCarte" min="1000000000000" max="9999999999999999999" maxlength="19"/>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<label for="codeSecurite">Code de sécurité (CVC):</label>
-									</td>
-									<td>
-										<input type="number" id="codeSecurite" name="codeSecurite" min="000" max="999" maxlenght="3"/>
-									</td>
-								</tr>
-								<tr>
-									<td colspan="2">
-										<input type="submit" value="Payer" id="payer"/>
-									</td>
-								</tr>
-							</table>
-						</fieldset>
-					</form>
-				</article>
-			</section>
-
-		</main>
+		
+		<section>
+			<article>
+				<form>
+					<fieldset> <legend><h1>Paiement</h1></legend>
+						<table>
+							<tr>
+								<td colspan="2">
+									<h2>Informations Personnelles</h2>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<h3>Identité</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="nom">Nom: </label>
+								</td>
+								<td>
+									<input type="text" id="nom" name="nom" placeholder="Ex: Dupont"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="prenom">Prenom: </label>
+								</td>
+								<td>
+									<input type="text" id="prenom" name="prenom" placeholder="Ex: Jean"/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<h3>Contact</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="mail">Adresse mail: </label>
+								</td>
+								<td>
+									<input type="email" id="mail" name="mail" placeholder="Ex: jean.dupont@gmail.com"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="telephone">Téléphone: </label>
+								</td>
+								<td>
+									<input type="tel" id="telephone" name="telephone" placeholder="Ex: 0679521485"/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<h3>Adresse:</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="codePostal">Code Postal: </label>
+								</td>
+								<td>
+									<input type="number" id="codePostal" name="codePostal" placeholder="Ex: 69100" min="01000" max="99999" maxlength="5"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="ville">Ville: </label>
+								</td>
+								<td>
+									<input type="text" id="ville" name="ville" placeholder="Ex: Villeurbanne" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="rue">Rue/Numéro/Étage/Etc: </label>
+								</td>
+								<td>
+									<input type="text" id="rue" name="rue" placeholder="Ex: 12 Rue de la République" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" >
+									<h2>Méthode de paiement</h2>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td >
+									<img src="https://www.merchantequip.com/image/?logos=v|m|me&height=32" alt="Merchant Equipment Store Credit Card Logos"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="nomCarte">Nom prénom:</label>
+								</td>
+								<td>
+									<input type="text" id="nomCarte" name="nomCarte"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="dateExpiration">Date d'expiration:</label>
+								</td>
+								<td>
+									<input type="month" id="dateExpiration" name="dateExpiration" min="2018-02" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="numCarte">Numéro de carte:</label>
+								</td>
+								<td>
+									<input type="number" id="numCarte" name="numCarte" min="1000000000000" max="9999999999999999999" maxlength="19"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="codeSecurite">Code de sécurité (CVC):</label>
+								</td>
+								<td>
+									<input type="number" id="codeSecurite" name="codeSecurite" min="000" max="999" maxlenght="3"/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="submit" value="Payer" id="payer"/>
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</article>
+		</section>
 		
 			
 		<footer>
